@@ -1,0 +1,134 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+body > div:nth-child(1){
+    background-image: url("./stranger-things-2020-q9.jpg");
+    background-size: 1520px auto;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header > div{
+    display: flex;
+    gap: 20px;
+}
+header > div:nth-child(1)>div>h3{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+header > div:nth-child(2) > div > img{
+    margin-top: 20px;
+}
+header > div:nth-child(2){
+    margin-right: 30px;
+}
+header > div:nth-child(2)>div>h3{
+    margin-top: 30px;
+}
+header > div:nth-child(2)>div>img{
+    margin-top: 30px;
+}
+#text{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#text>div>button:nth-child(1){
+    font-size: 20px;
+    padding: 6px 30px;
+    border-radius: 5px;
+    border: none;
+}
+#text>div>button:nth-child(2){
+    padding: 0px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444244;
+    color: white;
+    border: none;
+}
+/* *{
+    color: white;
+} */
+
+/* #carousel{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#carousel> div > img{
+    width: 250px;
+} */
+#product-container{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#product-container > img{
+    padding: 5px;
+    width: 200px;
+    transition: transform 0.3s ease-in;
+}
+#product-container > img:hover{
+    transform: scale(1.1);
+}
+.product ::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+#newproduct-container{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#newproduct-container > img{
+    padding: 5px;
+    width: 200px;
+    transition: transform 0.3s ease-in;
+}
+#newproduct-container > img:hover{
+    transform: scale(1.1);
+}
+.newproduct ::-webkit-scrollbar {
+    overflow: hidden;
+}
+body > div:nth-child(2){
+    width: 100%;
+    height: 100vh;
+    background-image: url("./jenna-ortega-as-2798x1574-9302.jpg");
+    background-size: cover;
+    position: relative;
+    top: -595px;
+    z-index: -1;
+    background-color: rgb(15, 1, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer > div > h2{
+    padding-top: 50px;
+    margin-left: 130px;
+    color: #727272;
+}
+footer > div > div > a{
+    display: block;
+    color: #727272;
+    text-decoration: none;
+    margin-top: 15px;
+}
+footer > div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+#changetext{
+    font-family: 'Inter', sans-serif;
+font-family: 'Kablammo', cursive;
+font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url("./3324647.jpg");
+    background-size:1200px;
+    background-repeat: no-repeat;
+    background-position: 50% 38%;
+    filter: brightness(1) contrast(0.8);
+    opacity: 100;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+#border{
+    /* border: 2px solid black; */
+    width: 450px;
+    height: 200px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+input{
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#show{
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(227, 17, 17);
+}
