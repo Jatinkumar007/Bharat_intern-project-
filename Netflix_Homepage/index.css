@@ -132,3 +132,165 @@ footer > div:nth-child(2){
 font-family: 'Kablammo', cursive;
 font-family: 'Poppins', sans-serif;
 }
+
+
+/* Common styles for all devices */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.hamburger{
+    display: none;
+}
+/* Styles for desktop screens */
+@media screen and (min-width: 1024px) {
+    /* Header */
+    header {
+        justify-content: space-between;
+    }
+
+    header > div:nth-child(1) > div > h3 {
+        margin-top: 35px;
+    }
+
+    header > div:nth-child(2) > div > img {
+        margin-top: 20px;
+    }
+
+    header > div:nth-child(2) > div > h3 {
+        margin-top: 30px;
+    }
+
+    header > div:nth-child(2) > div > img {
+        margin-top: 30px;
+    }
+
+    /* Text section */
+    #text {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    #text > div > button:nth-child(1),
+    #text > div > button:nth-child(2) {
+        font-size: 20px;
+        padding: 6px 30px;
+    }
+
+    #text > div > h4 {
+        font-size: 18px;
+    }
+
+    /* Product containers */
+    #product-container > img,
+    #newproduct-container > img {
+        padding: 5px;
+        width: 200px;
+    }
+
+    /* Footer */
+    footer > div > h2 {
+        padding-top: 50px;
+        margin-left: 130px;
+    }
+
+    footer > div > div > a {
+        margin-top: 15px;
+    }
+}
+
+/* Styles for tablet screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .hide2{
+        display: none;
+    }
+
+    /* Text section */
+    #text {
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    #text > div > button {
+        font-size: 16px;
+        padding: 4px 20px;
+    }
+
+    #text > div > h4 {
+        font-size: 14px;
+    }
+
+    /* Product containers */
+    #product-container > img,
+    #newproduct-container > img {
+        padding: 5px;
+        width: 150px;
+    }
+
+    /* Footer */
+    footer > div > h2 {
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+    footer > div > div > a {
+        margin-top: 10px;
+    }
+}
+
+/* Styles for phone screens */
+@media screen and (max-width: 767px) {
+    /* Header */
+    header > div {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    
+    .hide{
+        display: none;
+       }
+    .hide2{
+        display: none;
+    }   
+
+    /* Text section */
+    #text {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    #text > div > button {
+        font-size: 14px;
+        padding: 3px 15px;
+    }
+
+    #text > div > h4 {
+        font-size: 12px;
+    }
+
+    /* Product containers */
+    #product-container > img,
+    #newproduct-container > img {
+        padding: 5px;
+        width: 120px;
+    }
+
+    /* Footer */
+    footer > div > h2 {
+        margin-left: 10px;
+        padding-top: 20px;
+    }
+
+    footer > div > div > a {
+        margin-top: 5px;
+    }
+}
